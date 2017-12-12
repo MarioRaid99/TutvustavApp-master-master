@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\helen.nagel\Desktop\TutvustavApp-master\HullApp.iml" filepath="C:\Users\helen.nagel\Desktop\TutvustavApp-master\HullApp.iml" />
+      <module fileurl="file://C:\Users\Nagel\Desktop\Log\TutvustavApp-master-master\TutvustavApp-master.iml" filepath="C:\Users\Nagel\Desktop\Log\TutvustavApp-master-master\TutvustavApp-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TutvustavApp-master-master.iml" filepath="$PROJECT_DIR$/TutvustavApp-master-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Nagel\Desktop\Log\TutvustavApp-master-master\app\app.iml" filepath="C:\Users\Nagel\Desktop\Log\TutvustavApp-master-master\app\app.iml" />
+      <module fileurl="file://C:\Users\helen.nagel\Desktop\TutvustavApp-master\app\app.iml" filepath="C:\Users\helen.nagel\Desktop\TutvustavApp-master\app\app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.opilane.hullapp.MainActivity"
+    android:background="#6ccad1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cs:Go Skins"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:textSize="24dp"
+        android:id="@+id/textView"
+        android:textColor="#ffff"
+        />
+
+    <!-- Nupp mis viib sind skins klassi kus omakorda toimub mingi tegevus -> viib sind veebilehele-->
+    <Button
+        android:id="@+id/skins_nupp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="23dp"
+        android:text="Skins"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="47dp"
+        android:onClick="Saada"/>
+    <!-- Nupp mis viib sind csgostash klassi, kus kuvatakse sulle pilte -->
+    <Button
+        android:id="@+id/skin_stash_nupp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/skins_nupp"
+        android:layout_marginTop="32dp"
+        android:text="Skin stash"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="112dp"
+        android:onClick="Siht"
+        />
+    <!-- Nupp, mida vajutades tahetakse avada netilehekülge, kasutades selleks androidi enda minisugust browseri rakendust-->
+    <Button
+        android:id="@+id/netileht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:onClick="netileht"
+        android:text="netileht" />
+</RelativeLayout>
